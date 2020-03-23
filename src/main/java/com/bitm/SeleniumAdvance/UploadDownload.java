@@ -7,11 +7,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+
 public class UploadDownload {
 
 	public static void main(String[] args) throws IOException {
 		
-		System.setProperty("webdriver.gecko.driver", "F:\\Kashedul\\Selenium Files\\Gecko\\geckodriver.exe");
+     System.setProperty("webdriver.gecko.driver", "F:\\Kashedul\\Selenium Files\\Gecko\\geckodriver.exe");
 		
 		WebDriver dr = new FirefoxDriver();
 		
@@ -52,9 +53,13 @@ public class UploadDownload {
 			System.out.println(ex.toString());
 			
 		}
+		
+	
+			
+		}
 	    
 	    
 		
 	}
 
-}
+
